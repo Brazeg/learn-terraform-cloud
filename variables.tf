@@ -10,6 +10,6 @@ variable "instance_type" {
 
 variable "instance_name" {
   description = "EC2 instance name, WHICH IS BEING OVERRRIDEN BY THE VALUE OF THE TERRAFORM VARIABLE  instance_name"
-  default     = "Provisioned by Ibrahim in Terraform!"
+  default     = "Provisioned by Ibrahim in Terraform! wohooooo"
 }
 
