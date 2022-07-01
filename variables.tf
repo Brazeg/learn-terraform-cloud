@@ -1,6 +1,6 @@
 variable "region" {
   description = "AWS region"
-  default     = "us-west-1"
+  default     = "eu-central-1"
 }
 
 variable "instance_type" {
@@ -9,7 +9,7 @@ variable "instance_type" {
 }
 
 variable "instance_name" {
-  description = "EC2 instance name"
-  default     = "Provisioned by Terraform"
+  description = "EC2 instance name, WHICH IS BEING OVERRRIDEN BY THE VALUE OF THE TERRAFORM VARIABLE  instance_name"
+  default     = "Provisioned by Ibrahim in Terraform"
 }
 
